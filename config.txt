@@ -1,0 +1,12 @@
+{
+	"details": [
+		{
+	          "token": "16c32ccf89a8f9639eecc42c2365a6b516dc8e8a",
+	          "is_obd": "0"
+		},
+		{
+	          "token": "16c32ccf89a8f9639eecc42c2365a6b516dc8e8a",
+	          "is_obd": "1"
+		}
+	]
+}
