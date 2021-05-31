@@ -11,8 +11,8 @@ Make sure you have Python 3 installed. [Download Python 3](https://www.python.or
 # Usage
 ```
 cd api-automation-testing-script/
-sudo chmod +x api\ test_api.py
-python3 api\ test_api.py
+sudo chmod +x test_api.py
+python3 test_api.py
 ```
 
 # Credits
