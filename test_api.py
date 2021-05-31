@@ -46,10 +46,10 @@ def test_api_check_content_length():
     try:
         assert True
         response = requests.post(api_endpoint, json=data)
-        assert response.headers['Content-Length'] == "158"
+        assert response.headers['Content-Length'] == "<length of response returned>"
 
     except AssertionError:
-         print("Expected Content-Length to be " + "158" + " but got " + response.headers['Content-Length'])
+         print("Expected Content-Length to be " + "<length of response returned>" + " but got " + response.headers['Content-Length'])
 '''
 
 
@@ -67,7 +67,7 @@ def test_api_check_content_type_equals_json():
 
 # API Endpoint
 api_endpoint = input("Enter API Endpoint URI: ")
-# api_endpoint = "http://kamdev.voicetree.biz/kamailio_api/src/Kamailio/index.php/group_server_list"
+# api_endpoint = "<API enpoint URI>"
 
 # Body of Post request
 # Opens JSON file
