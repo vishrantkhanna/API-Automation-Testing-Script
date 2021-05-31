@@ -1,12 +1,12 @@
 {
 	"details": [
 		{
-	          "token": "16c32ccf89a8f9639eecc42c2365a6b516dc8e8a",
-	          "is_obd": "0"
+	          "value 1": "",
+	          "value 2": ""
 		},
 		{
-	          "token": "16c32ccf89a8f9639eecc42c2365a6b516dc8e8a",
-	          "is_obd": "1"
+	          "value 3": "",
+	          "value 4": ""
 		}
 	]
 }
